@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Projek UTS - 00000015928</string>
+
+    <string name="user_name">user</string>
+    <string name="user_password">useruser</string>
+
+    <string name="login_preference">umn.ac.id.projekuts_00000015928_login_preference</string>
+    <string name="login_status_preference">umn.ac.id.projekuts_00000015928_login_status_preference</string>
+
+</resources>

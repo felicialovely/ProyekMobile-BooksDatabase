@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <TextView
+        android:id="@+id/judul_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL PAGE"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/asin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASIN"/>
+
+    <TextView
+        android:id="@+id/jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GROUP"/>
+
+    <TextView
+        android:id="@+id/format"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORMAT"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITLE"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUTHOR"/>
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUBLISHER"/>
+
+</LinearLayout>

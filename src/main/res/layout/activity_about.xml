@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="16dp"
+                android:text="About Me"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id='@+id/name'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Felicia Priscilla Lovely"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/judul"/>
+
+            <TextView
+                android:id='@+id/nim'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="00000015928"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name"/>
+
+            <TextView
+                android:id='@+id/add'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional library for my project:"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nim"/>
+
+            <TextView
+                android:id='@+id/lib1'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Shared Preference"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add"/>
+
+            <TextView
+                android:id='@+id/lib2'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Search Filter"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib1"/>
+
+            <TextView
+                android:id='@+id/lib3'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- SQLiteOpenHelper + SQLiteDatabase"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib2"/>
+
+            <TextView
+                android:id='@+id/lib4'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Comparator"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib3"/>
+
+            <TextView
+                android:id='@+id/lib5'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Linear Layout Manager"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib4"/>
+
+            <TextView
+                android:id='@+id/lib6'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Collections"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib5"/>
+
+            <TextView
+                android:id='@+id/lib7'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- ArrayList"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib6"/>
+
+            <TextView
+                android:id='@+id/lib8'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- ViewGroup"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib7"/>
+
+            <TextView
+                android:id='@+id/ref'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Referensi yang saya gunakan untuk membuat projek UTS ini:"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lib8"/>
+
+            <TextView
+                android:id='@+id/link1'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- Modul Praktikum dan Code Materi Mingguan"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ref"/>
+
+            <TextView
+                android:id='@+id/link2'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- https://www.youtube.com/watch?v=9ZCK5BOU6wk"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/link1"/>
+
+            <TextView
+                android:id='@+id/link3'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- https://www.youtube.com/watch?v=oh4YOj9VkVE"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/link2"/>
+
+            <TextView
+                android:id='@+id/link4'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="16dp"
+                android:singleLine="true"
+                android:text="- https://www.youtube.com/watch?v=OWwOSLfWboY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/link3" />
+
+            <TextView
+                android:id='@+id/link5'
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="- https://www.youtube.com/watch?v=NzK5hHdblqk"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/link4"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
